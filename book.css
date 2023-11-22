@@ -8,13 +8,15 @@
     /* border: 2px solid red; */
     /* margin: auto; */
     display: flex;
+    position: relative;
 }
 /* ********************************************************************************************** */
 /* Navbar ki CSS */
 
 .nav-div{
-    display:block;
-    overflow: hidden;
+    /* display:block;
+    overflow: hidden; */
+    /* display: flex; */
     background-color: #333;
 
 /* for navbar static */
@@ -75,22 +77,22 @@
     background-color:rgb(106, 162, 218);
 }
 
-.left{
+.nav-left{
     float: left;
-}
-.right{
+} 
+ .nav-right{
     float: right;
     padding-top:10px ;
-}
-.h{
+} 
+ .h{
     margin-right:15px;
-}
+ }
 
 
 /* FILTER  */
 .left{
     display: flex;
-    position: position;
+    position: fixed;
     flex-direction: column;
     margin-top: 7%;
     /* margin-left: 20px; */
@@ -288,7 +290,7 @@
 
     margin: 20px;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 30%;
   }
   
   .car-item {
@@ -301,6 +303,12 @@
     justify-content: center;
     align-items: center;
   }
+  .car-item:hover{
+    /* box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.1); */
+    /* font-size: medium; */
+    /* font-weight: bold; */
+    transform: scale(1.1);
+}
   
   .car-image {
     width: 100%;
