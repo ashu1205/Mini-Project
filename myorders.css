@@ -169,7 +169,7 @@
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
   }
   .car-details:hover{
-      transform: scale(1.05);
+      transform: scale(1.01);
       box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
       background-color: #b0ceeb;
   }
@@ -189,9 +189,10 @@
     align-items: center;
     
   }
-  .mid-left{
-    /* border: 2px solid red; */
-  }
+  /* .mid-left{
+      border: 2px solid red; 
+  } 
+  */
   .bottom-details{
     padding: 20px;
   }
