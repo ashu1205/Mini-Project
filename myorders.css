@@ -98,23 +98,26 @@
     margin-left:20px ;
  }
  .my-orders{
+    /* height: 80vh; */
     margin-top: 80px;
-    padding: 10px;
+    /* padding: 10px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-around; */
+    /* border: 2px solid red; */
  }
  .car-item {
     background-color: #a3bacf;
     border-radius: 20px;
-    height:200px;
+    height:50vh;
     padding: 10px;
     margin: 20px;
     /* text-align: center; */
     display: flex;
     /* flex-direction: column; */
-    /* justify-content: center;
-    align-items: center; */
+    justify-content: center;
+    align-items: center; 
+    /* border: 2px solid red; */
   }
   
   /* .car-image img{
@@ -127,19 +130,60 @@
     /* height: 60%;
     width: 30%; */
     /* float: left; */
-    /* /* height: 30%; */
-    width: 30%;
-    object-fit: cover;
-    overflow: hidden;
+    /* height: 30%; */
+    width: 35%;
+    height: 90%;
+    
+    /* background-color: #7dadda; */
+    border-radius:5px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+    /* margin: 3vw; */
+    /* border: 2px solid red; */
+  }
+  .car-image img{
+    height: 100%;
+    width:100%;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+    
   }
   .car-details{
     display: flex;
-    padding: 20px;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-    /* margin: 10px; */
+    /* border: 2px solid red; */
+    width: 50vw;
+    height: 90%;
+    flex-direction: column;
+    /* padding: 20px; */
+    /* gap: 3vw; */
+    /* justify-content:center; */
+    /* align-items: center; */
+    margin: 3vw;
     /* height: 80%; */
     /* width: 40%; */
     /* float: right; */
+    /* background-color: #7dadda; */
+    border-radius:5px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  .top-details p{
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    padding: 20px;
+    
+   
+  }
+  .mid-details{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 20px;
+    /* justify-content:center; */
+    gap: 10vw;
+    align-items: center;
+    
+  }
+  .mid-left{
+    /* border: 2px solid red; */
+  }
+  .bottom-details{
+    padding: 20px;
   }
